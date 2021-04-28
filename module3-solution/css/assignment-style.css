@@ -1,0 +1,116 @@
+body {
+  font-size: 16px;
+  color: white;
+  background-color: #faf6f8;
+  font-family: "Oxygen", sans-serif;
+}
+#header-nav {
+  background-color: #9fb7eb;
+  border: 0;
+  border-radius: 0;
+}
+.navbar-header h1 {
+  /* Restuarant Name */
+  padding-top: 15px;
+  color: #3c5da5;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+.navbar-header a:hover,
+.navbar-header a:focus {
+  text-decoration: none;
+}
+#home-tiles h1 {
+  color: #3c5da5;
+  margin-bottom: 30px;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #3c5da5;
+  text-align: center;
+}
+#nav-list a:hover {
+  background-color: #e7e7e7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #3c5da5;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -25px;
+}
+#chicken-tile,
+#beef-tile,
+#sushi-tile {
+  height: 350px;
+  width: 100%;
+  margin-bottom: 15px;
+  padding-top: 5px;
+  position: relative;
+  border: 2px solid #515755;
+  background-color: #3c5da5;
+}
+
+#chicken-tile h3,
+#beef-tile h3,
+#sushi-tile h3 {
+  text-align: center;
+  color: #fff;
+}
+#chicken-tile p,
+#beef-tile p,
+#sushi-tile p {
+  padding: 0 0 0 15px;
+}
+.back {
+  color: #9fb7eb;
+}
+.back:hover,
+.back:focus {
+  text-decoration: none;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-xs-12 {
+    width: 100%;
+    padding-left: 30px;
+  }
+  #chicken-tile,
+  #beef-tile,
+  #sushi-tile {
+    height: 200px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #chicken-tile,
+  #beef-tile {
+    height: 340px;
+  }
+  #sushi-tile {
+    height: 210px;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-header h1 {
+    /* Restuarant Name */
+    padding-top: 15px;
+    padding-left: 60px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  #chicken-tile,
+  #beef-tile,
+  #sushi-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+}
